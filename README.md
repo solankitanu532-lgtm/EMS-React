@@ -1,16 +1,62 @@
-# React + Vite
+# EMS-React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18.2.0-blue) ![Vite](https://img.shields.io/badge/Vite-4.3.9-green) ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)  
 
-Currently, two official plugins are available:
+**EMS-React** is a web application built with **React** and **Vite** that allows employees to manage tasks and admins to monitor them efficiently. It provides a secure login, an employee dashboard for creating tasks, and an admin dashboard to manage all tasks.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📝 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Login System**  
+  Employees log in with their credentials to access the dashboard.  
 
-## Expanding the ESLint configuration
+- **Employee Dashboard**  
+  - View assigned tasks  
+  - Create new tasks  
+  - Tasks automatically sent to the admin dashboard  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Admin Dashboard**  
+  - View all tasks submitted by employees  
+  - Track task status (active, completed, failed, etc.)  
+
+- **Fast Development Setup**  
+  - Built with **Vite** for fast development  
+  - Hot Module Replacement (HMR) for quick UI updates  
+
+- **Code Quality**  
+  - ESLint rules included  
+  - Optional TypeScript integration for type safety  
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React, Vite  
+- **Styling:** Tailwind CSS (if used)  
+- **State Management:** React Hooks / Context API  
+- **Routing:** React Router (if used)  
+- **Backend:** Optional / Local storage  
+
+---
+
+## 🚀 Project Setup
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/solankitanu532/ems-react.git
+cd ems-react
+
+## Folder Structure
+ems-react/
+│
+├─ public/          # Static assets like images, icons
+├─ src/
+│   ├─ components/  # Reusable React components
+│   ├─ pages/       # Employee & Admin dashboards, Login page
+│   ├─ context/     # React Context for state management
+│   ├─ App.jsx
+│   └─ main.jsx
+├─ package.json
+└─ vite.config.js
+
