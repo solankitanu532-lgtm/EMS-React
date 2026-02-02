@@ -5,5 +5,5 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react() ,tailwindcss(),],
-  base: '/EMS-React/'  // <-- Ye repo name hona chahiyen
+  base: '/'  // <-- Ye repo name hona chahiyen
 })
