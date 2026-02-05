@@ -80,6 +80,3 @@ npm run dev
 - Using Vite for fast development  
 
 ---
-
-## 📷 Screenshots
-(Add screenshots here)
