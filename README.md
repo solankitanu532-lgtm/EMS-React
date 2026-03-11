@@ -79,5 +79,3 @@ npm run dev
 - Login based dashboard implementation  
 - Task management UI  
 - Using Vite for fast development  
-
----
