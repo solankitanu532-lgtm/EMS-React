@@ -12,7 +12,6 @@ The application provides separate dashboards for Admin and Employees with login 
 ### 👨‍💼 Admin Panel
 - Secure admin login  
 - Create and assign tasks  
-- Manage employee workflow  
 - Separate admin dashboard  
 
 ### 👩‍💻 Employee Panel
