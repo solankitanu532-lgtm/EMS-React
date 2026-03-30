@@ -74,7 +74,6 @@ npm run dev
 ---
 
 ## 📚 Learning Outcome
-- React component structure  
 - Login based dashboard implementation  
 - Task management UI  
 - Using Vite for fast development  
